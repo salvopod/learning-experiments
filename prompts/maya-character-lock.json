@@ -1,0 +1,30 @@
+{
+  "character_id": "CHARACTER_MAYA_01",
+  "name": "Maya",
+  "character_lock": true,
+  "identity": {
+    "gender": "female",
+    "age_range": "late 20s to early 30s",
+    "appearance": "Mediterranean, warm and approachable",
+    "skin_tone": "light to medium olive skin",
+    "face_shape": "soft oval face with natural proportions",
+    "eyes": { "color": "warm brown", "shape": "large, expressive, natural" },
+    "eyebrows": "dark brown, full and naturally shaped",
+    "nose": "natural, softly defined",
+    "lips": "natural medium fullness",
+    "skin_details": "natural skin texture with subtle freckles",
+    "makeup": "minimal, natural makeup"
+  },
+  "hair": { "color": "dark brown", "style": "messy bun", "texture": "natural, slightly wavy", "details": "a few loose strands framing the face" },
+  "body": { "build": "slim to average", "proportions": "natural realistic adult proportions", "height": "average" },
+  "accessories": { "earrings": "small delicate gold dangling earrings", "necklace": "delicate layered gold necklaces, one with a small round pendant", "other": "subtle bracelets and rings" },
+  "personality_expression": { "default_expression": "warm, thoughtful and attentive", "smile": "subtle natural smile", "presence": "intelligent, curious, calm and approachable" },
+  "visual_style": {
+    "style": "cinematic photorealism",
+    "realism": "high",
+    "skin": "realistic skin texture",
+    "lighting": "soft natural cinematic lighting",
+    "avoid": ["cartoon appearance", "anime appearance", "plastic skin", "overly perfect facial symmetry", "heavy makeup", "glamorous fashion styling", "changing facial features", "changing eye color", "changing hair color", "changing hairstyle"]
+  },
+  "consistency_instruction": "Always preserve Maya's facial identity, age, skin tone, brown eyes, dark brown messy bun, facial proportions and overall appearance. Clothing, pose, expression and environment may change unless specifically locked for a scene."
+}
