@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Can AI rehearse a learning launch? · Learning Experiments</title>
+  <meta name="description" content="A tested prototype for exploring learning adoption across alternative launch conditions.">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="./page.css">
+</head>
+<body>
+  <nav>
+    <a href="../">← Learning Experiments</a>
+    <span>Learning experiment · 009</span>
+  </nav>
+
+  <main class="entry">
+    <header class="article-hero">
+      <p class="eyebrow"><i></i> Tested prototype · Illustrative data</p>
+      <h1>Can AI rehearse<br>a learning launch?</h1>
+      <p class="lead">What if a learning team could explore how a large population might move from invitation to completion before committing to a full launch?</p>
+      <div class="hero-meta"><span>Working simulation</span><span>Plan A vs Plan B</span><span>Individual learner journeys</span></div>
+    </header>
+
+    <section class="proof" aria-labelledby="proof-title">
+      <div class="proof-copy">
+        <p class="eyebrow">From hypothesis to prototype</p>
+        <h2 id="proof-title">We did not stop at the idea.</h2>
+        <p>We built and tested a working Learning Lab prototype. It creates an illustrative learner population, follows the same people through two launch plans and makes each learner’s decisions visible over time.</p>
+        <p class="data-note">The demonstration below uses fictional labels and illustrative values. It contains no organisation or HR-system data.</p>
+        <a class="button-link" href="./demo/">Open the anonymised prototype ↗</a>
+      </div>
+      <div class="browser-frame">
+        <div class="browser-bar"><i></i><i></i><i></i><span>Learning Lab · anonymised prototype</span></div>
+        <iframe src="./demo/" title="Interactive Learning Lab prototype" loading="eager"></iframe>
+      </div>
+    </section>
+
+    <article class="story">
+      <p class="opening">The original question was simple: could we use historical patterns and explicit assumptions to rehearse a learning launch?</p>
+      <p>The prototype simulates a population of individual learners. Some open the first communication, some ignore it, some click but do not register, some start and pause, and some complete. People can also join the organisation or leave before completing the programme.</p>
+      <p>This is not a claim that AI can predict exactly what every person will do. It is a way to expose assumptions, explore possible outcomes and identify where a learner journey may lose momentum.</p>
+    </article>
+
+    <section class="prototype-screens" aria-labelledby="screens-title">
+      <div class="section-heading">
+        <p class="eyebrow">Screens from the working build</p>
+        <h2 id="screens-title">The test makes both the system and the learner visible.</h2>
+      </div>
+      <figure class="screen-wide">
+        <img src="./assets/simulation-overview.png" alt="An anonymised Learning Lab simulation comparing Plan A and Plan B with fictional workforce data.">
+        <figcaption><span>01 · Scenario comparison</span> Change the launch conditions and compare results for the same simulated population.</figcaption>
+      </figure>
+      <figure class="screen-wide">
+        <img src="./assets/learner-journey.png" alt="An anonymised learner journey view showing the same fictional cohort across two launch plans.">
+        <figcaption><span>02 · Learner journey</span> Move from population averages into the decisions and progress of individual simulated learners.</figcaption>
+      </figure>
+    </section>
+
+    <section class="journey-map" aria-labelledby="journey-title">
+      <div class="section-heading">
+        <p class="eyebrow">What the model follows</p>
+        <h2 id="journey-title">One journey, many possible decisions.</h2>
+      </div>
+      <div class="journey-line" aria-label="Learning adoption journey">
+        <div><b>01</b><span>Email sent</span><small>Assigned</small></div>
+        <div><b>02</b><span>Discovered</span><small>Opened or ignored</small></div>
+        <div><b>03</b><span>Considered</span><small>Clicked or delayed</small></div>
+        <div><b>04</b><span>Registered</span><small>Approval may be needed</small></div>
+        <div><b>05</b><span>Started</span><small>Time affects progress</small></div>
+        <div><b>06</b><span>Completed</span><small>Or leaves incomplete</small></div>
+      </div>
+    </section>
+
+    <section class="evidence" aria-labelledby="evidence-title">
+      <div class="section-heading compact">
+        <p class="eyebrow">Inside the test</p>
+        <h2 id="evidence-title">Three views make the hypothesis testable.</h2>
+      </div>
+      <div class="evidence-grid">
+        <article>
+          <div class="mini-ui conditions">
+            <span class="mini-label">PLAN B</span><h3>Change the conditions</h3>
+            <p>Active sponsor <b>On</b></p><p>Manager encouragement <b>On</b></p><p>Protected time <b>2 hours</b></p><p>Course relevance <b>4 / 5</b></p>
+          </div>
+          <h3>Change the environment</h3>
+          <p>Test sponsorship, manager support, protected time, relevance and whether participation is mandatory.</p>
+        </article>
+        <article>
+          <div class="mini-ui people">
+            <span class="mini-label">SAME COHORT · TWO PLANS</span>
+            <div class="person-row"><i class="p1"></i><span>Learner 014</span><b>Opened</b></div>
+            <div class="person-row"><i class="p2"></i><span>Learner 027</span><b>Registered</b></div>
+            <div class="person-row"><i class="p3"></i><span>Learner 041</span><b>Completed</b></div>
+            <div class="person-row"><i class="p4"></i><span>Learner 048</span><b>Left audience</b></div>
+          </div>
+          <h3>Follow individual behaviour</h3>
+          <p>Compare the same simulated people across both plans instead of comparing two unrelated averages.</p>
+        </article>
+        <article>
+          <div class="mini-ui comparison">
+            <span class="mini-label">MONTH 3</span><h3>Plan comparison</h3>
+            <div><span>Plan A</span><i style="--w:48%"></i><b>24</b></div>
+            <div><span>Plan B</span><i style="--w:72%"></i><b>36</b></div>
+            <small>Illustrative completion counts</small>
+          </div>
+          <h3>Compare possible outcomes</h3>
+          <p>See where conditions change discovery, registration, progress and completion across the launch timeline.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="tested">
+      <div>
+        <p class="eyebrow">What we tested</p>
+        <h2>The prototype already moves beyond a static forecast.</h2>
+      </div>
+      <ul>
+        <li>The same learner identities remain in Plan A and Plan B.</li>
+        <li>Learners can discover, consider, register, seek approval, start and complete.</li>
+        <li>Joiners and leavers change the active population over time.</li>
+        <li>Closed cohorts and open audiences behave differently.</li>
+        <li>Department filters and learning-capacity constraints affect the results.</li>
+        <li>Blocked approval scenarios make friction visible.</li>
+      </ul>
+    </section>
+
+    <section class="conditions" aria-labelledby="conditions-title">
+      <p class="eyebrow">Variables worth discussing</p>
+      <h2 id="conditions-title">Success depends on more than the course.</h2>
+      <div class="condition-grid">
+        <div><b>01</b><h3>Communication</h3><p>Did the invitation reach the learner, and did it feel relevant enough to open?</p></div>
+        <div><b>02</b><h3>Time</h3><p>Can people make progress after existing workload and mandatory learning?</p></div>
+        <div><b>03</b><h3>Managers</h3><p>Do managers encourage participation or create another approval gate?</p></div>
+        <div><b>04</b><h3>Sponsorship</h3><p>Is the programme visible, credible and connected to organisational priorities?</p></div>
+        <div><b>05</b><h3>Population change</h3><p>How do new joiners, role changes and leavers reshape the reachable audience?</p></div>
+        <div><b>06</b><h3>Relevance</h3><p>Does the experience solve a problem the learner recognises in their work?</p></div>
+      </div>
+    </section>
+
+    <section class="boundary">
+      <p class="eyebrow">The important boundary</p>
+      <blockquote>This is a rehearsal, not a prediction engine.</blockquote>
+      <div class="boundary-copy">
+        <p>Forecasts should be ranges, not promises. Historical patterns may not continue. Correlation does not establish causation. Inputs must be aggregated and governed, and human judgement remains essential.</p>
+        <p>The value is in finding weak assumptions and asking better questions before investing in a full launch.</p>
+      </div>
+    </section>
+
+    <article class="story conclusion">
+      <p class="opening">The interesting question is not whether AI can create a perfect model of the future.</p>
+      <p class="closing">It is whether learning teams can rehearse a launch, explore different conditions and identify likely barriers while there is still time to change the design.</p>
+    </article>
+
+    <a class="back-link" href="../">← Return to all experiments</a>
+  </main>
+</body>
+</html>
